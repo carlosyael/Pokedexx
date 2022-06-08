@@ -1,8 +1,32 @@
-﻿@{
+﻿@model List<Application.ViewModels.PokemonViewModel>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container-fluid">
+    
+    <div class="row">
+        @if (Model == null || Model.Count==0)
+        {
+            <h2>No Hay Pokemones</h2>
+        }
+        else
+        {
+        @foreach (Application.ViewModels.PokemonViewModel item in Model)
+        {
+
+            <div class="col-4">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top " src="@item.ImageUrl" />
+                    <div class="card-body">
+                        <h4>@item.Name</h4>
+                         
+                    </div>
+
+                </div>
+            </div>
+        }
+        }
+
+    </div>
 </div>

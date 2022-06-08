@@ -2053,6 +2053,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Database": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7253,6 +7266,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Database/1.0.0": {
       "type": "project",
       "path": "../Database/Database.csproj",
@@ -7261,6 +7279,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Application >= 1.0.0",
       "Database >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
@@ -7270,23 +7289,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\Pokedex\\Pokedex\\Pokedex.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Pokedex\\Pokedex.csproj",
       "projectName": "Pokedex",
-      "projectPath": "C:\\Users\\carlo\\source\\repos\\Pokedex\\Pokedex\\Pokedex.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carlo\\source\\repos\\Pokedex\\Pokedex\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Pokedex\\Pokedex.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Pokedex\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7301,8 +7320,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\carlo\\source\\repos\\Pokedex\\Database\\Database.csproj": {
-              "projectPath": "C:\\Users\\carlo\\source\\repos\\Pokedex\\Database\\Database.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Application\\Application.csproj"
+            },
+            "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj"
             }
           }
         }

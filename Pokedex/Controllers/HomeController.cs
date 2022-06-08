@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Application.Service;
+using Database.Model;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Pokedex.Models;
 using System;
@@ -11,23 +13,18 @@ namespace Pokedex.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly PokemonService _pokemonService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationContext dbContext)
         {
-            _logger = logger;
+            _pokemonService = new(dbContext); 
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _pokemonService.GetAllViewModel());
         }
 
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
     }
 }
