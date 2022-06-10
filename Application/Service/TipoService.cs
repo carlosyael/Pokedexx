@@ -18,13 +18,47 @@ namespace Application.Service
         }
         public async Task<List<TipoViewModel>> GetAllViewModel()
         {
-            var regionList = await _tipoRepository.GetAllAsync();
-            return regionList.Select(region => new TipoViewModel
+            var tipoList = await _tipoRepository.GetAllAsync();
+            return tipoList.Select(tipo => new TipoViewModel
             {
-                Name = region.Name,
-                Id = region.Id
+                Name = tipo.Name,
+                Id = tipo.Id
 
             }).ToList();
         }
+        public async Task Add(SaveTipoViewModel stvm)
+        {
+            Tipo tipo = new();
+            tipo.Name = stvm.Name;
+
+            await _tipoRepository.AddAsync(tipo);
+        }
+
+        public async Task Update(SaveTipoViewModel stvm)
+        {
+            Tipo tipo = new();
+            tipo.Name = stvm.Name;
+            tipo.Id = stvm.Id;
+            await _tipoRepository.UpdateAsync(tipo);
+        }
+
+        public async Task<SaveTipoViewModel> GetByIdSaveViewModel(int Id)
+        {
+            var tipo = await _tipoRepository.GetByIdAsync(Id);
+            SaveTipoViewModel stvm = new();
+            stvm.Name = tipo.Name;
+            stvm.Id = tipo.Id;
+            
+
+            return stvm;
+        }
+
+        public async Task Delete(int Id)
+        {
+            var tipo = await _tipoRepository.GetByIdAsync(Id);
+            await _tipoRepository.DeleteAsync(tipo);
+
+        }
+
     }
 }

@@ -90,19 +90,19 @@ namespace Database.Migrations
                     b.HasOne("Database.Model.Region", "Region")
                         .WithMany("Pokemons")
                         .HasForeignKey("RegionId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
 
                     b.HasOne("Database.Model.Tipo", "TipoPri")
                         .WithMany("PokemonsPri")
                         .HasForeignKey("TipoPriId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
 
                     b.HasOne("Database.Model.Tipo", "TipoSec")
                         .WithMany("PokemonsSec")
                         .HasForeignKey("TipoSecId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
 
                     b.Navigation("Region");

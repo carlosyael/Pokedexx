@@ -853,9 +853,14 @@ C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Pokede
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Pokedex.RazorCoreGenerate.cache
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Pokemon\Pokmant.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Pokemon\SavePokemon.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Region\Regionmant.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Region\SaveRegion.cshtml.g.cs
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Tipo\SaveTipo.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Tipo\Tipomant.cshtml.g.cs
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Pokedex.RazorTargetAssemblyInfo.cache

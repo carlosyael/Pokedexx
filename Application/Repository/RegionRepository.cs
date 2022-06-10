@@ -18,7 +18,7 @@ namespace Application.Repository
         }
         public async Task AddAsync(Region region)
         {
-            await _dbContext.Regions.AddAsync( region);
+            await _dbContext.Regiones.AddAsync(region);
             await _dbContext.SaveChangesAsync();
         }
         public async Task UpdateAsync(Region region)
@@ -37,7 +37,7 @@ namespace Application.Repository
             return await _dbContext.Set<Region>().ToListAsync();
 
         }
-        public async Task<Region> GetByIDAsync(int id)
+        public async Task<Region> GetByIdAsync(int id)
         {
             return await _dbContext.Set<Region>().FindAsync(id);
 

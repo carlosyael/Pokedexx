@@ -37,7 +37,7 @@ namespace Application.Repository
             return await _dbContext.Set<Tipo>().ToListAsync();
 
         }
-        public async Task<Tipo> GetByIDAsync(int id)
+        public async Task<Tipo> GetByIdAsync(int id)
         {
             return await _dbContext.Set<Tipo>().FindAsync(id);
 
