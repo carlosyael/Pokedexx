@@ -66,7 +66,10 @@ namespace Application.Service
             {
                Name=pokemon.Name,
                ImageUrl=pokemon.ImageUrl,
-               Id=pokemon.Id
+               Id=pokemon.Id,
+               RegionId=pokemon.RegionId,
+               TipoPriId=pokemon.TipoPriId,
+               TipoSecId=pokemon.TipoSecId
                
             }).ToList();
         }

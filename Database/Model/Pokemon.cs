@@ -11,7 +11,6 @@ namespace Database.Model
         public int Id { get; set; }
         public string Name { get; set; }
         public string ImageUrl { get; set; }
-
         public int RegionId { get; set; }
         public int TipoPriId { get; set; }
         public int TipoSecId { get; set; }

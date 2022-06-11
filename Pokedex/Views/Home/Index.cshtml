@@ -20,7 +20,34 @@
                     <img class="bd-placeholder-img card-img-top " src="@item.ImageUrl" />
                     <div class="card-body">
                         <h4>@item.Name</h4>
-                         
+                        @{ foreach (Application.ViewModels.RegionViewModel region in item.regions.regiones)
+                            {
+                                if (item.RegionId == region.Id)
+                                {
+                                    <h5>Region: @region.Name </h5>
+                                    break;
+                                }
+                            }
+                        }
+                        @{ foreach (Application.ViewModels.TipoViewModel tipo in item.tipos.Tipos)
+                            {
+                                if (item.TipoPriId == tipo.Id)
+                                {
+                                    <h5>Tipo Principal: @tipo.Name </h5>
+                                    break;
+                                }
+                            }
+                        }
+                        @{ foreach (Application.ViewModels.TipoViewModel tipo in item.tipos.Tipos)
+                            {
+                                if (item.TipoSecId == tipo.Id)
+                                {
+                                    <h5>Tipo Secundario: @tipo.Name </h5>
+                                    break;
+                                }
+                            }
+                        }
+
                     </div>
 
                 </div>

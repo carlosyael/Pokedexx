@@ -28,3 +28,18 @@ C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Database\obj\Debug\net5.0\Datab
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Database\obj\Debug\net5.0\ref\Database.dll
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Database\obj\Debug\net5.0\Database.pdb
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Database\obj\Debug\net5.0\Database.genruntimeconfig.cache
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\bin\Debug\net5.0\Database.deps.json
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\bin\Debug\net5.0\Database.runtimeconfig.json
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\bin\Debug\net5.0\Database.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\bin\Debug\net5.0\Database.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\bin\Debug\net5.0\ref\Database.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\bin\Debug\net5.0\Database.pdb
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.AssemblyInfo.cs
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\ref\Database.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.pdb
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.genruntimeconfig.cache
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Database\obj\Debug\net5.0\Database.csproj.AssemblyReference.cache

@@ -36,6 +36,7 @@ namespace Database.Model
                 .HasMany<Pokemon>(Region => Region.Pokemons)
                 .WithOne(Pokemon => Pokemon.Region)
                 .HasForeignKey(Pokemon => Pokemon.RegionId).OnDelete(DeleteBehavior.ClientCascade);
+
             #endregion
 
             #region Tipo Primario
@@ -43,6 +44,8 @@ namespace Database.Model
                 .HasMany<Pokemon>(Tipo => Tipo.PokemonsPri)
                 .WithOne(Pokemon => Pokemon.TipoPri)
                 .HasForeignKey(Pokemon => Pokemon.TipoPriId).OnDelete(DeleteBehavior.ClientCascade);
+
+
             #endregion
 
             #region Tipo Secundario

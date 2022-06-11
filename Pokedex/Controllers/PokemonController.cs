@@ -12,15 +12,23 @@ namespace Pokedex.Controllers
     public class PokemonController : Controller
     {
         private readonly PokemonService _pokemonService;
+        private readonly RegionService _regionService;
+        public LRegion regiones = LRegion.getInstace();
+        private readonly TipoService _tipoService;
+        public LTipo tipos = LTipo.getInstace();
 
         public PokemonController(ApplicationContext dbContext)
         {
             _pokemonService = new(dbContext);
+            _regionService = new(dbContext);
+            _tipoService = new(dbContext);
         }
 
 
         public async Task<IActionResult> Pokmant()
         {
+            tipos.Tipos = await _tipoService.GetAllViewModel();
+            regiones.regiones = await _regionService.GetAllViewModel();   
             return View(await _pokemonService.GetAllViewModel());
         }
         public IActionResult Create()
@@ -30,6 +38,8 @@ namespace Pokedex.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(SavePokemonViewModel spvm)
         {
+            tipos.Tipos = await _tipoService.GetAllViewModel();
+            regiones.regiones = await _regionService.GetAllViewModel();
             if (!ModelState.IsValid)
             {
                 return View("SavePokemon", spvm);
@@ -40,6 +50,8 @@ namespace Pokedex.Controllers
 
         public async Task<IActionResult> Edit(int Id)
         {
+            tipos.Tipos = await _tipoService.GetAllViewModel();
+            regiones.regiones = await _regionService.GetAllViewModel();
             return View("SavePokemon", await _pokemonService.GetByIdSaveViewModel(Id));
         }
         [HttpPost]

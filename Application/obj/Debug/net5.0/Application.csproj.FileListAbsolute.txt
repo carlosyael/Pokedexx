@@ -13,3 +13,18 @@ C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Application\obj\Debug\net5.0\Ap
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Application\obj\Debug\net5.0\Application.dll
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Application\obj\Debug\net5.0\ref\Application.dll
 C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Application\obj\Debug\net5.0\Application.pdb
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\bin\Debug\net5.0\Application.deps.json
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\bin\Debug\net5.0\Application.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\bin\Debug\net5.0\ref\Application.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\bin\Debug\net5.0\Application.pdb
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\bin\Debug\net5.0\Database.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\bin\Debug\net5.0\Database.pdb
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\ref\Application.dll
+C:\Users\carlo\source\repos\Pokedex\Pokedexx\Application\obj\Debug\net5.0\Application.pdb

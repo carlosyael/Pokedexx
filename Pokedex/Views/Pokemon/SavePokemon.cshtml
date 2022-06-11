@@ -30,8 +30,11 @@
                             <label asp-for="RegionId" class="form-label">Region: </label>
                             <select asp-for="RegionId" class="form-select">
                                 <option value="">Seleccione una opcion</option>
-                                <option value="1">test</option>
-                                <option value="2">test2</option>
+                                @{ 
+                                    foreach(Application.ViewModels.RegionViewModel region in Model.regions.regiones) { 
+                                     <option value="@region.Id">@region.Name</option>
+                                    }
+                                }
                             </select>
                             <span asp-validation-for="RegionId" class="text-danger"></span>
                         </div>
@@ -39,8 +42,12 @@
                             <label asp-for="TipoPriId" class="form-label">Tipo primario: </label>
                             <select asp-for="TipoPriId" class="form-select">
                                 <option value="">Seleccione una opcion</option>
-                                <option value="1">Fuego</option>
-                                <option value="2">Dragon</option>
+                                @{
+                                    foreach (Application.ViewModels.TipoViewModel tipo in Model.tipos.Tipos)
+                                    {
+                                        <option value="@tipo.Id">@tipo.Name</option>
+                                    }
+                                }
                             </select>
                             <span asp-validation-for="TipoPriId" class="text-danger"></span>
                         </div>
@@ -48,10 +55,13 @@
                             <label asp-for="TipoSecId" class="form-label">Tipo secundario: </label>
                             <select asp-for="TipoSecId" class="form-select">
                                 <option value="">Seleccione una opcion</option>
-                                <option value="1">Fuego</option>
-                                <option value="2">Dragon</option>
+                                @{
+                                    foreach (Application.ViewModels.TipoViewModel tipo in Model.tipos.Tipos)
+                                    {
+                                        <option value="@tipo.Id">@tipo.Name</option>
+                                    }
+                                }
                             </select>
-                            <span asp-validation-for="TipoSecId" class="text-danger"></span>
                         </div>
 
                         <input type="hidden" asp-for="Id" />

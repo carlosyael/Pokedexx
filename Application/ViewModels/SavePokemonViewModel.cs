@@ -20,8 +20,9 @@ namespace Application.ViewModels
         public int RegionId { get; set; }
         [Required(ErrorMessage = "El Tipo principal es requerido")]
         public int TipoPriId { get; set; }
-        [Required(ErrorMessage = "El Tipo secundario es requerido")]
         public int TipoSecId { get; set; }
 
+        public LRegion regions = LRegion.getInstace();
+        public LTipo tipos = LTipo.getInstace();
     }
 }
