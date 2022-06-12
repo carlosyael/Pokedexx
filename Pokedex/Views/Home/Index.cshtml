@@ -3,56 +3,56 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="container-fluid">
-    
+
+
     <div class="row">
-        @if (Model == null || Model.Count==0)
+        @if (Model == null || Model.Count == 0)
         {
             <h2>No Hay Pokemones</h2>
         }
         else
         {
-        @foreach (Application.ViewModels.PokemonViewModel item in Model)
-        {
+            @foreach (Application.ViewModels.PokemonViewModel item in Model)
+            {
 
-            <div class="col-4">
-                <div class="card shadow-sm">
-                    <img class="bd-placeholder-img card-img-top " src="@item.ImageUrl" />
-                    <div class="card-body">
-                        <h4>@item.Name</h4>
-                        @{ foreach (Application.ViewModels.RegionViewModel region in item.regions.regiones)
-                            {
-                                if (item.RegionId == region.Id)
+                <div class="col-4">
+                    <div class="card shadow-sm">
+                        <img class="bd-placeholder-img card-img-top " src="@item.ImageUrl" />
+                        <div class="card-body">
+                            <h4>@item.Name</h4>
+                            @{ foreach (Application.ViewModels.RegionViewModel region in item.regions.regiones)
                                 {
-                                    <h5>Region: @region.Name </h5>
-                                    break;
+                                    if (item.RegionId == region.Id)
+                                    {
+                                        <h5>Region: @region.Name </h5>
+                                        break;
+                                    }
                                 }
                             }
-                        }
-                        @{ foreach (Application.ViewModels.TipoViewModel tipo in item.tipos.Tipos)
-                            {
-                                if (item.TipoPriId == tipo.Id)
+                            @{ foreach (Application.ViewModels.TipoViewModel tipo in item.tipos.Tipos)
                                 {
-                                    <h5>Tipo Principal: @tipo.Name </h5>
-                                    break;
+                                    if (item.TipoPriId == tipo.Id)
+                                    {
+                                        <h5>Tipo Principal: @tipo.Name </h5>
+                                        break;
+                                    }
                                 }
                             }
-                        }
-                        @{ foreach (Application.ViewModels.TipoViewModel tipo in item.tipos.Tipos)
-                            {
-                                if (item.TipoSecId == tipo.Id)
+                            @{ foreach (Application.ViewModels.TipoViewModel tipo in item.tipos.Tipos)
                                 {
-                                    <h5>Tipo Secundario: @tipo.Name </h5>
-                                    break;
+                                    if (item.TipoSecId == tipo.Id)
+                                    {
+                                        <h5>Tipo Secundario: @tipo.Name </h5>
+                                        break;
+                                    }
                                 }
                             }
-                        }
+
+                        </div>
 
                     </div>
-
                 </div>
-            </div>
-        }
+            }
         }
 
     </div>

@@ -56,6 +56,12 @@ namespace Pokedex.Controllers
         public async Task<IActionResult> Delete(int Id)
         {
 
+            return View(await _tipoService.GetByIdSaveViewModel(Id));
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeletePost(int Id)
+        {
+
             await _tipoService.Delete(Id);
             return RedirectToRoute(new { Controller = "Tipo", Action = "Tipomant" });
         }

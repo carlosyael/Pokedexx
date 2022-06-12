@@ -1311,3 +1311,6 @@ C:\Users\carlo\source\repos\Pokedex\Pokedexx\Pokedex\obj\Debug\net5.0\Pokedex.dl
 C:\Users\carlo\source\repos\Pokedex\Pokedexx\Pokedex\obj\Debug\net5.0\ref\Pokedex.dll
 C:\Users\carlo\source\repos\Pokedex\Pokedexx\Pokedex\obj\Debug\net5.0\Pokedex.pdb
 C:\Users\carlo\source\repos\Pokedex\Pokedexx\Pokedex\obj\Debug\net5.0\Pokedex.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Pokemon\Delete.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Tipo\Delete.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Proyecto fibnal\Pokedexx\Pokedex\obj\Debug\net5.0\Razor\Views\Region\Delete.cshtml.g.cs

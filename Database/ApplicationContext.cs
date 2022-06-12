@@ -35,7 +35,7 @@ namespace Database.Model
             modelBuilder.Entity<Region>()
                 .HasMany<Pokemon>(Region => Region.Pokemons)
                 .WithOne(Pokemon => Pokemon.Region)
-                .HasForeignKey(Pokemon => Pokemon.RegionId).OnDelete(DeleteBehavior.ClientCascade);
+                .HasForeignKey(Pokemon => Pokemon.RegionId).OnDelete(DeleteBehavior.SetNull);
 
             #endregion
 
@@ -43,7 +43,7 @@ namespace Database.Model
             modelBuilder.Entity<Tipo>()
                 .HasMany<Pokemon>(Tipo => Tipo.PokemonsPri)
                 .WithOne(Pokemon => Pokemon.TipoPri)
-                .HasForeignKey(Pokemon => Pokemon.TipoPriId).OnDelete(DeleteBehavior.ClientCascade);
+                .HasForeignKey(Pokemon => Pokemon.TipoPriId).OnDelete(DeleteBehavior.ClientSetNull);
 
 
             #endregion

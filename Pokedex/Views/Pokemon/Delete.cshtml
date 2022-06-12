@@ -1,0 +1,23 @@
+﻿@model Application.ViewModels.SavePokemonViewModel
+@{
+    ViewData["Title"] = "Eliminar Pokemon";
+}
+
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="card">
+            <div class="card-header bg-danger text-light">
+                <h4>Esta seguro que desea eliminar el Pokemon @Model.Name?</h4>
+            </div>
+            <div class="card-body">
+                <form method="post" asp-controller="Pokemon" asp-action="DeletePost">
+
+                    <input type="hidden" asp-for="Id" />
+
+                    <button type="submit" class="btn btn-sm btn-outline-danger">Eliminar</button>
+                    <a asp-controller="Pokemon" asp-action="Pokmant" class="btn btn-sm btn-outline-info">Volver atras</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

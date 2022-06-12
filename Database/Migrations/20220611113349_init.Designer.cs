@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Database.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20220611001123_init")]
+    [Migration("20220611113349_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -92,13 +92,12 @@ namespace Database.Migrations
                     b.HasOne("Database.Model.Region", "Region")
                         .WithMany("Pokemons")
                         .HasForeignKey("RegionId")
-                        .OnDelete(DeleteBehavior.ClientCascade)
+                        .OnDelete(DeleteBehavior.SetNull)
                         .IsRequired();
 
                     b.HasOne("Database.Model.Tipo", "TipoPri")
                         .WithMany("PokemonsPri")
                         .HasForeignKey("TipoPriId")
-                        .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
 
                     b.HasOne("Database.Model.Tipo", "TipoSec")

@@ -52,13 +52,17 @@ namespace Pokedex.Controllers
             await _regionService.Update(srvm);
             return RedirectToRoute(new { Controller = "Region", Action = "Regionmant" });
         }
-
         public async Task<IActionResult> Delete(int Id)
+        {
+
+            return View(await _regionService.GetByIdSaveViewModel(Id));
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeletePost(int Id)
         {
 
             await _regionService.Delete(Id);
             return RedirectToRoute(new { Controller = "Region", Action = "Regionmant" });
         }
-
     }
 }

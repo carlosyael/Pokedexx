@@ -68,6 +68,12 @@ namespace Pokedex.Controllers
         public async Task<IActionResult> Delete(int Id)
         {
 
+            return View(await _pokemonService.GetByIdSaveViewModel(Id));
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeletePost(int Id)
+        {
+
             await _pokemonService.Delete(Id);
             return RedirectToRoute(new { Controller = "Pokemon", Action = "Pokmant" });
         }

@@ -33,7 +33,6 @@ namespace Pokedex.Controllers
             regiones.regiones = await _regionService.GetAllViewModel();
             return View(await _pokemonService.GetAllViewModel());
         }
-
-
+      
     }
 }
