@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sqg4cgms7TSE7BfBaoEl2XzDuGTAkw/sOTJfwcwaYb6bzS7BC1Q44dqDljczqoLNnGaOKaVpiKaqaycWAMzOzA==",
+  "dgSpecHash": "mLmkVvcNAUYOUC3GvsYKWZDoxoC+wAxocJgzTc69QXmSyEcHJ3OwEjkgN43NJxYF9bJpIlBzdSUjBRvZo7CFLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

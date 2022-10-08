@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FD21+q8Sw3/MoMMgQnu8mEkgv7tv/jEkgmQH37cpnRG6RKRxN0gKHT46ckuqq1Rb2JIsrUtdxcUb245q7UBuxA==",
+  "dgSpecHash": "utxzYzUmFjhl8AINtRTg+MaoxqKKy9TmJW87hU7e702qgdJJ0SG6bvhzJRtEdhqS23HivLS3hlUdJ4gjpQBBWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

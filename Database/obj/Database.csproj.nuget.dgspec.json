@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Database\\Database.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Database\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rOXeWNZJ1trp47TgehFc7eehG2Q4nE62fBLBrqe6/iYnguuwcqC57HSe6CNPXT7nzafIcpjL6QSSnCu1lnPLCw==",
+  "dgSpecHash": "pDvx29r4+Dhf7DjRwYWUc+nt0R9fIBkqHreaVv+vzPgXf4MYn3Xo8Jt9e4WFGuLMnQmhFmqnF7l+tprl25yQ/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Proyecto fibnal\\Pokedexx\\Pokedex\\Pokedex.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Nueva carpeta (3)\\Proyecto fibnal\\Pokedexx\\Pokedex\\Pokedex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
