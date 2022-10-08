@@ -16,7 +16,7 @@ namespace Application.ViewModels
         public string ImageUrl { get; set; }
         public int RegionId { get; set; }
 
-        public int TipoPriId { get; set; }
+        public int TipoPriId { get; set; } 
 
         public int TipoSecId { get; set; }
 

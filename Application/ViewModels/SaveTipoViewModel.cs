@@ -9,9 +9,9 @@ namespace Application.ViewModels
 {
     public class SaveTipoViewModel
     {
-        public int Id { get; set; }
+        public int Id { get; set; } 
         [Required(ErrorMessage = "El Nombre es requerido")]
-        public string Name { get; set; }
+        public string Name { get; set; } 
 
     }
 }
